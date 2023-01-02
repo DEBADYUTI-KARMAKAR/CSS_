@@ -1,6 +1,9 @@
 h2{
     color: teal;
-    background-color: #ffafcc;   
+    background-color: #ffafcc;
+    text-align: right;  
+    width: 50%; 
+    font-weight: 100;
 }
 button{
     color: red;
@@ -9,8 +12,18 @@ button{
 p{
     color: #ffcc00;
     background:rgb(22, 22, 99);
+    font-weight: bold;
+    text-decoration: line-through;
 }
 body{
     background-color: #a2d2ff;
     
+}
+
+h1{
+    font-weight: 500;
+    text-decoration: #fb8500 dotted underline;
+    line-height: 50px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
 }
