@@ -21,8 +21,9 @@ h1{
     /* justify-content: space-around; */
     /* justify-content: space-evenly; */
     flex-direction: column;
-    justify-content: space-evenly;
-    
+    /* justify-content: space-evenly; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 #container div{
