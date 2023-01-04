@@ -1,0 +1,32 @@
+body{
+    font-family: 'open sans', sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    /* flex-direction: row; */
+    /* justify-self: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
