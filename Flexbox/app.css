@@ -23,7 +23,7 @@ h1{
     flex-direction: column;
     /* justify-content: space-evenly; */
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 #container div{
