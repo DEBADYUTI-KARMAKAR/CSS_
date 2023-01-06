@@ -25,14 +25,19 @@ h1{
     /* justify-content: flex-start;
     flex-wrap: wrap-reverse; */
 
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     /* flex-wrap: wrap-reverse; */
-    flex-wrap:nowrap;
+    /* flex-wrap:nowrap; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
 }
 
 #container div{
-    width: 600px;
+    width: 200px;
     height: 200px;
     text-align: center;
+    /* font-size: 4em; */
 }
