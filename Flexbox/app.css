@@ -32,22 +32,28 @@ h1{
     /* align-items: center; */
     /* align-items: baseline; */
     /* align-items: flex-end; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* align-content: space-between; */
 }
 
 #container div{
     width: 200px;
     height: 200px;
-    max-width: 300px;
+    /* max-width: 300px; */
     text-align: center;
-    flex-basis:200px ;
-    flex-grow: 1;
+    flex-basis:6s00px ;
+    /* flex-grow: 1; */
     /* font-size: 4em; */
 }
-/* div:nth-of-type(3){
-    align-self:flex-end;
+div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 4;
 }
+div:nth-of-type(5){
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+/*
 div:nth-of-type(4){
     align-self:center;
 } */
