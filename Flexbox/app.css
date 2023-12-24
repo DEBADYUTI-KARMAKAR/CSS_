@@ -41,7 +41,7 @@ h1{
     height: 200px;
     /* max-width: 300px; */
     text-align: center;
-    flex-basis:6s00px ;
+    flex-basis:600px ;
     /* flex-grow: 1; */
     /* font-size: 4em; */
 }
@@ -88,6 +88,7 @@ main{
 main .sidebar{
     background-color: #6930c3;
     border: 2px solid white;
+    
     flex: 1 300px;
 }
 main .maincontent{
